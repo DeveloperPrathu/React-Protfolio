@@ -1,0 +1,116 @@
+:root {
+    --color-bg: #1f1f38;
+    --color-bg-variant: #2c2c6c;
+    --color-primary: #4db5ff;
+    --color-primary-variant: rgba(77, 181, 255, 0.4);
+    --color-white: #fff;
+    --color-light: rgba(255, 255, 255, 0.6);
+
+    --container-width-lg: 75%;
+    --container-width-md: 86%;
+    --container-width-ms: 90%;
+}
+
+.contact__options {
+    width: 50%;
+}
+
+.container.contact__container {
+    width: 58%;
+    display: grid;
+    grid-template-columns: 30% 58%;
+}
+
+.contact__options {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.contact__option {
+    background: var(--color-bg-variant);
+    padding: 1.2rem;
+    border-radius: 1.2rem;
+    text-align: center;
+    border: 1px solid transparent;
+    transition: var(--transition);
+    margin-top: 10%;
+}
+
+.contact__option:hover {
+    background: transparent;
+    border-color: var(--color-primary-variant);
+}
+
+.contact__option-icon {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;;
+}
+
+.contact__option a {
+    margin-top: 0.7rem;
+    display: inline-block;
+    font-size: 0.8rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+section > h2,
+section > h5 {
+    text-align: center;
+    color: var(--color-light);
+}
+
+section > h2 {
+    color: var(--color-primary);
+    margin-bottom: 3rem;
+}
+
+.text-light {
+    color: var(--color-light);
+}
+
+a {
+    color: var(--color-primary);
+    transition: var(--transition);
+}
+
+a:hover {
+    color: var(--color-width);
+}
+
+@media screen and (max-width: 1024px) {
+    .container {
+        width: var(--container-width-md);
+    }
+
+    section {
+        margin-top: 6rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        width: var(--container-width-sm);
+    }
+
+    section > h2{
+        margin-top: 2rem;
+    }
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    background: transparent;
+    border: 2px solid var(--color-primary-variant);
+    resize: none;
+    color: var(--color-white);
+}
+
