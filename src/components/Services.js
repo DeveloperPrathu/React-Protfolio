@@ -51,7 +51,7 @@ const Services = () => {
             <h3 className="h3 max-w-[455px] mb-16">
               I'm a Freelance Front-end Developer with over 5 years of experience.
             </h3>
-            <button className="btn btn-sm">See My Work</button>
+            <a href="#work"><button className="btn btn-sm">See My Work</button></a>
           </motion.div>
           {/* services */}
           <div className="flex-1">

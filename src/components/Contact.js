@@ -10,8 +10,7 @@ const Contact = () => {
               <div>
                 <h1 className="text-4xl font-bold tracking-wide">Contact</h1>
                 <p className="pt-2 text-sm text-cyan-100">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Sequi aperiam dolore{" "}
+                  Contact me through the various socials link or leave a message to contact me for more.{" "}
                 </p>
               </div>
               <div className="flex flex-col space-y-6">

@@ -10,7 +10,7 @@ import { motion } from "framer-motion";
 // variants
 import { fadeIn } from "../variants";
 // Resume
-import Resume from "../assets/Resume.JPG";
+import Resume from "../assets/Resume.pdf";
 
 const Banner = () => {
   return (
