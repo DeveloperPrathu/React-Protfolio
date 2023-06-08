@@ -37,7 +37,7 @@ const About = () => {
               I'm a Full-Stack Developer with over 3 years of experience.
             </h3>
             <p className="mb-3">
-              Hi there! I am a full-stack developer with a passion for crafting
+              Hi there! I am a Full-Stack developer with a passion for crafting
               intuitive and beautiful web applications. I have a strong
               foundation in both front-end and back-end technologies and I love
               to bring my designs to life by writing clean and efficient code.
